@@ -7,7 +7,7 @@ function Home() {
         <h1>The Joel Hilton Film Collection</h1>
 
         <div>
-          <p>My Movie Collection is Rad!</p>
+          <p>Hello, my name is Joel Hilton and my movie collection is rad!</p>
         </div>
 
         <img src="./Joel.jpg" alt="JoelHilton" />
