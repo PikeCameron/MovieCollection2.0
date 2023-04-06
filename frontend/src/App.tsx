@@ -5,6 +5,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Podcasts from './Podcasts';
 import Movies from './Movies';
+import MovieList from './movie/MovieList';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/Movies" className="nav-link">
+            <Link to="/movie/MovieList" className="nav-link">
               Movie Collection
             </Link>
           </li>
@@ -34,7 +35,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Podcasts" element={<Podcasts />} />
-        <Route path="/Movies" element={<Movies />} />
+        <Route path="/movie/MovieList" element={<MovieList />} />
       </Routes>
     </>
   );
